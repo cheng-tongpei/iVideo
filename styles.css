@@ -1,0 +1,30 @@
+/* 设置视频列表为flex布局，每行5个 */
+.video-list {
+    display: flex;
+    flex-wrap: wrap; /* 多行布局 */
+    gap: 20px; /* 视频项之间的间距 */
+    justify-content: space-between; /* 间距均匀分布 */
+}
+
+/* 视频容器设置统一高度，确保底部对齐 */
+.video-item {
+    flex: 1 1 calc(20% - 20px); /* 每个视频占20%的宽度，减去间距 */
+    max-width: 20%; /* 最大宽度为20% */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* 拉伸视频容器，确保高度一致 */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* 视频自适应父容器宽度和高度 */
+video {
+    width: 100%; /* 宽度自适应容器 */
+    height: auto; /* 保持视频比例 */
+    max-height: 200px; /* 限制视频高度 */
+}
+
+/* 视频标题始终贴近视频 */
+.video-item p {
+    margin-top: auto; /* 让标题贴底 */
+}

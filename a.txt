@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>iVideo</title>
+</head>
+<body>
+    <header>
+        <div class="logo">浙江工商大学</div>
+        <input type="text" placeholder="搜索视频...">
+        <div class="user-area">
+            <button>登录</button>
+        </div>
+    </header>
+    <main>
+        <section class="carousel">
+            <!-- 轮播图 -->
+        </section>
+        <section class="categories">
+            <h2>分类推荐</h2>
+            <div class="category-list">
+                <!-- 分类视频列表 -->
+            </div>
+        </section>
+        <section class="popular-videos">
+            <h2>热门视频</h2>
+            <div class="video-list">
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0d00fg10000crkn7knog65sf8u4jg9g.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>风景</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0200fg10000cq9ld7fog65j9965rg40.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>高达</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0200fg10000cqutvgfog65nns8kgf5g.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>中间人</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0200fg10000clulr6bc77u2fm3uodpg.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>寂寞先生</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0d00fg10000cq7scffog65r76vr5e20.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>I can't love you in the dark</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0d00fg10000cqefhn7og65oc7m0f4q0.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>天若有情</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0d00fg10000cqjntt7og65t9qoshib0.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>与我无关</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0300fg10000clfitmjc77u86ldj52rg.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>爱的回归线</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0200fg10000ch3892rc77u7k3lgi470.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>背叛</p>
+                </div>
+                <div class="video-item">
+                    <video controls>
+                        <source src="video/v0200fg10000cl8d883c77uai6gplldg.MP4" type="video/mp4">
+                        您的浏览器不支持HTML5视频标签。
+                    </video>
+                    <p>学不会</p>
+                </div>
+                <!-- 可以添加更多视频项 -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>版权信息 计科2202 程同培</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
